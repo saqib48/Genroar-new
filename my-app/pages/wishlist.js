@@ -3,6 +3,7 @@ import React from 'react';
 import Footer from '@/components/organisms/Footer';
 import WishlistData from '@/components/organisms/WishlistData';
 import CartPage from "@/components/organisms/CartPage";
+import WishlistShare from '@/components/organisms/Wishlistshare';
 
 
 export default function login(){
@@ -11,6 +12,7 @@ export default function login(){
         <Headermain/>
         <WishlistData/>
         <CartPage/>
+        <WishlistShare/>
         <Footer/>
     </div>
   )
