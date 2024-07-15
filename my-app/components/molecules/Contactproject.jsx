@@ -58,8 +58,7 @@ const Contactproject = () => {
                     <textarea variant="five" type="text" placeholder=" Message*" value={message} onChange={(e) => setMessage(e.target.value)} />
                 </div>
                 <div className="pt-[6%]">
-        <button type="submit" className="bg-[#ff6a28] h-[40px] hover:bg-[#242424] hpver:text-white cursor-pointer font-[500] tex-[12px] text-center w-[140px] py-[12px] px-[30px]  text-white"        
-        >send</button>
+        <button type="submit" className="bg-[#ff6a28] h-[40px] hover:bg-[#242424] hpver:text-white cursor-pointer font-[500] tex-[12px] text-center w-[140px] py-[12px] px-[30px]  text-white">send</button>
                 </div>
 
             </form>
