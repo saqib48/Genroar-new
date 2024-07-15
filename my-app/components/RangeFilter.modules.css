@@ -1,0 +1,42 @@
+.rangeSlider {
+    position: relative;
+    width: 300px;
+    margin: 50px auto;
+  }
+  
+  .rangeInput {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .rangeInput::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8px;
+    cursor: pointer;
+    background: transparent;
+  }
+  
+  .rangeInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    pointer-events: all;
+  }
+  
+  .sliderTrack {
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, #ddd, #007bff, #ddd);
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+  
