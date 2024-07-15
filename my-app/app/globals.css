@@ -185,7 +185,9 @@ li:hover .dropdown2 {
 .outer-product:hover .orange-ng {
     opacity: 1;
     visibility: visible;
-    transition: opacity 1s;
+    /* transition: opacity 1s; */
+    transition: delay-150 duration-300 ease-in-out;
+    
 }
 
 .orange-ng {
@@ -194,3 +196,10 @@ li:hover .dropdown2 {
     transition: opacity 1s, visibility 0s 0.3s;
     /* visibility delay ensures it changes after opacity */
 }
+/* .bg1{
+    background-image:url(../public/assits/images/about1.webp) ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+} */

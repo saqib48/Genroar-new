@@ -3,13 +3,16 @@ import { PortProduct } from '../molecules/PortProduct'
 
 const PortAll = () => {
   return (
-    <div className='flex w-[100%] flex-wrap ' >
-        <PortProduct src='/assits/images/portfolio1.webp' />
-        <PortProduct src='/assits/images/portfolio1.webp' />
-        <PortProduct src='/assits/images/portfolio1.webp' />
-        <PortProduct src='/assits/images/portfolio1.webp' />
-        <PortProduct src='/assits/images/portfolio1.webp' />
-        <PortProduct src='/assits/images/portfolio1.webp' />
+    <div>
+      <div className='flex justify-between w-[100%] flex-wrap ' >
+        <PortProduct src='/assits/images/portfolio1.webp' contant={'Looked Up One Of The More'} />
+        <PortProduct src='/assits/images/portfolio1.webp' contant={'Looked Up One Of The More'} />
+        <PortProduct src='/assits/images/portfolio1.webp' contant={'Looked Up One Of The More'} />
+        <PortProduct src='/assits/images/portfolio1.webp' contant={'Looked Up One Of The More'} />
+        <PortProduct src='/assits/images/portfolio1.webp'  contant={'Looked Up One Of The More'}/>
+        <PortProduct src='/assits/images/portfolio1.webp' contant={'Looked Up One Of The More'} />
+    </div>
+        
     </div>
   )
 }

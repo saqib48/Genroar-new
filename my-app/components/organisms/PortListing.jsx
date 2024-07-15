@@ -4,6 +4,10 @@ import Shop4 from '../organisms/Shop4';
 import Portfoliobtns from "../molecules/Portfoliobtns";
 import PortAll from "./PortAll";
 import PortfolioCompany from "../molecules/PortfolioCompany";
+import PortfolioComputer from "../molecules/portfolioComputer";
+import PortfolioGeneral from "../molecules/portfolioGeneral";
+import PortfolioHipster from "../molecules/portfolioHipster";
+import PortfolioJustfood from "../molecules/portfolioJustfood";
 
 
 
@@ -17,26 +21,28 @@ const PortListing = () => {
 
   return (
     <div>
-    <div className=" flex flex-col gap-[50px] ">
+    <div className=" flex flex-col ">
+    <div className=" mb-[5s0px]" >
+      <Portfoliobtns
+        all={() => handleTabChange("all")}
+        company={() => handleTabChange("company")}
+        computer={() => handleTabChange("computer")}
+        genrel={() => handleTabChange("genrel")}
+        hipster={() => handleTabChange("hipster")}
+        food={() => handleTabChange("food")}
+      />
+      </div>
       <div className=" flex-col justify-center  ">
         <div className="xl:py-[50px] lg:py-[50px] md:py-[50px] pt-[50px] pb-[30px] w-full">
           {activeTab === "all" && <PortAll/> }
-          <div>{activeTab === "compant" && <PortfolioCompany/>}</div>
-          <div className="mt-[-5px]">{activeTab === "shop3" && <Shop3 />}</div>
-          <div className="mt-[-50px] rounded-[50px]">{activeTab === "shop4" && <Shop4 /> }</div>
-          <div className="mt-[-50px] rounded-[50px]">{activeTab === "shop4" && <Shop4 /> }</div>
-          <div className="mt-[-50px] rounded-[50px]">{activeTab === "shop4" && <Shop4 /> }</div>
-          <div className="mt-[-50px] rounded-[50px]">{activeTab === "shop4" && <Shop4 /> }</div>
+          <div>{activeTab === "company" && <PortfolioCompany/>}</div>
+          <div className="mt-[-5px]">{activeTab === "computer" && <PortfolioComputer/>}</div>
+          <div className="mt-[-50px] rounded-[50px]">{activeTab === "genrel" && <PortfolioGeneral/> }</div>
+          <div className="mt-[-50px] rounded-[50px]">{activeTab === "hipster" && <PortfolioHipster/>}</div>
+          <div className="mt-[-50px] rounded-[50px]">{activeTab === "food" && <PortfolioJustfood /> }</div>
         </div>
       </div>
-      <div className="mt-[250px] mb-[5s0px]" >
-      <Portfoliobtns
-        shop1={() => handleTabChange("all")}
-        shop2={() => handleTabChange("company")}
-        shop3={() => handleTabChange("shop3")}
-        shop4={() => handleTabChange("shop4")}
-      />
-      </div>
+     
     </div>
     </div>
   )
