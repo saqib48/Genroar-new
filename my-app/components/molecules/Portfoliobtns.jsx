@@ -8,7 +8,7 @@ function Portfoliobtns({ all , company , computer ,genrel, hipster ,food }) {
   };
 
   return (
-    <div>
+    <div className="pt-[3%]">
       <div className="w flex rou items-center gap-[15px]  bg-gray-100 justify-center w-[100%] py-[30px]  ">
         <button
           onClick={() => {
@@ -16,7 +16,7 @@ function Portfoliobtns({ all , company , computer ,genrel, hipster ,food }) {
             all();
           }}
           className={`h-[40px] px-[15px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[14px] font-[500] text-[#747474] border-none bg-white  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${
-            activeButton === "all" ? "bg-orange-500 text-red-500 " : ""
+            activeButton === "all" ? "bg-gray-500 text-red-500 " : ""
           }`}
         >
           all
@@ -27,7 +27,7 @@ function Portfoliobtns({ all , company , computer ,genrel, hipster ,food }) {
             company();
           }}
           className={`h-[40px] px-[15px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[14px] font-[500] text-[#747474] border-none bg-white  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${
-            activeButton === "company" ? "bg-[#FF6A28] text-white " : ""
+            activeButton === "company" ? "bg-[#ff6a28] text-white " : ""
           }`}
         >
           company
@@ -38,7 +38,7 @@ function Portfoliobtns({ all , company , computer ,genrel, hipster ,food }) {
             computer();
           }}
           className={`h-[40px] px-[15px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[14px] font-[500] text-[#747474] border-none bg-white  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${
-            activeButton === "computer" ? "bg-[#FF6A28] text-white " : ""
+            activeButton === "computer" ? " text-white bg-[#ff6a28] " : ""
           }`}
         >
           Computer

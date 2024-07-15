@@ -17,7 +17,6 @@ function Portfoli() {
             <Span>Portfolio</Span>
           </div>
         </div>
-        <Portfoliobtns/>
         <PortListing />
       </Container>
     </div>
