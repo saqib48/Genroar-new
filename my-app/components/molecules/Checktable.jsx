@@ -65,12 +65,13 @@ function Checktable() {
                         </tfoot>
                     </table>
                 </div>
-                <div className='flex gap-[10px] items-center mt-[40px]'>
-                    <Input variant='check1'
-                        type='radio'
-                        name='options'
-                        id='radio'>
-                    </Input>
+                <div className="flex gap-[10px] items-center mt-[40px]">
+                    <Input
+                        variant="check1"
+                        type="radio"
+                        name="options"
+                        id="radio"
+                    />
                     <div onClick={toggleVisibility}>
                         <label htmlFor="radio">Create an account?</label>
                     </div>
