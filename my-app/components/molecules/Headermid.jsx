@@ -69,7 +69,7 @@ function Headermid() {
             <li><AnchorTag variant='Headerh' href='/error'>Error 404</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/'>Compare</AnchorTag></li>
             <li><AnchorTag variant='Headerh' href='/privacy'>Privacy Policy</AnchorTag></li>
-            <li><AnchorTag variant='Headerh' href='/'>Coming Soon</AnchorTag></li>
+            <li><AnchorTag variant='Headerh' href='/comingsoon'>Coming Soon</AnchorTag></li>
           </ul>
         </li>
         <li><AnchorTag variant='Header' href='/about'>About US</AnchorTag></li>

@@ -9,7 +9,7 @@ body {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
-
+ 
 body {
     font-family: 'Libre Franklin', sans-serif;
 }
@@ -196,10 +196,11 @@ li:hover .dropdown2 {
     transition: opacity 1s, visibility 0s 0.3s;
     /* visibility delay ensures it changes after opacity */
 }
-/* .bg1{
+.bg1{
     background-image:url(../public/assits/images/about1.webp) ;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-} */
+    height: 100vh;
+}
