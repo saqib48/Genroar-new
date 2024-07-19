@@ -1,5 +1,5 @@
-import CheckData from "@/components/organisms/CartData";
 import Checkcode from "@/components/organisms/Checkcode";
+import CheckData from "@/components/organisms/CheckData";
 import CheckForm from "@/components/organisms/CheckForm";
 import Checkpolicy from "@/components/organisms/Checkpolicy";
 import Footer from "@/components/organisms/Footer";
