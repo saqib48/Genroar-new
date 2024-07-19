@@ -4,7 +4,7 @@ import AnchorTag from "@/components/atoms/anchorTag";
 
 const HomeGameBanner = () => {
   return (
-    <div className="relative px-[8%] mt-[5%]">
+    <div className="relative px-[5%] mt-[5%]">
     <img className="w-[100%] h-[550px]" src="/assits/images/banner3.webp" alt="Banner 3" />
     <div className="absolute top-[25%] left-[15%]">
       <Heading level="1">Game Of Thrones Jaime</Heading>
