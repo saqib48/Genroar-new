@@ -5,7 +5,6 @@ import AnchorTag from "../atoms/anchorTag"; // Assuming this is correctly import
 import Container from "../atoms/Container";
 import Heading from "../atoms/Heading";
 import { CiFileOn } from "react-icons/ci"; // Assuming this is correctly imported
-import Label from '../atoms/Label';
 import Input from "../atoms/Input";
 import Button from "../atoms/Button";
 

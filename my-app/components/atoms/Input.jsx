@@ -23,7 +23,7 @@ function Input({ variant, value , onChange ,type,id, name ,placeholder }) {
       break;
     case "four":
       inputStyle =
-        "w-[630px] h-[41px] rounded-[40px] outline-none border-2 p-[10px]  border-opacity-10 border-gray-500  ";
+        "w-[630px] h-[41px] rounded-[40px] outline-none   border-[1px]  text-white border-[#ddd]  p-[23px] bg-inherit  ";
       break;
     case "five":
       inputStyle =
