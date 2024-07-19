@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import "../../app/globals.css";
 import React from "react";
 
-function Input({ variant, value , onChange ,type,id, name ,placeholder }) {
+function Input({ variant, value, onChange, type, id, name, placeholder }) {
   let inputStyle = "";
   switch (variant) {
     case "fotrinput"://this style can use in search,usename,password,:)
@@ -62,7 +62,7 @@ function Input({ variant, value , onChange ,type,id, name ,placeholder }) {
       break;
   }
 
-  return <input  value={value} onChange={onChange} type={type} placeholder={placeholder} className={inputStyle} />;
+  return <input value={value} id={id} name={name} onChange={onChange} type={type} placeholder={placeholder} className={inputStyle} />;
 }
 
 Input.propTypes = {

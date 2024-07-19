@@ -53,7 +53,7 @@ const Button = ({ href, children, variant, type, onClick }) => {
       break;
     case "rectangle-5":
       buttonStyle =
-        "h-[40px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center w-[110px]  flex items-center justify-center  text-[14px] font-[500] text-[#747474] border-none bg-white  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300";
+        "h-[40px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center w-[120px]  flex items-center justify-center  text-[14px] font-[500] text-[white] border-none bg-black  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300";
       break;
     case "oval":
       buttonStyle =
@@ -75,9 +75,9 @@ const Button = ({ href, children, variant, type, onClick }) => {
       buttonStyle =
         "bg-gray-100 h-[55px]  cursor-pointer text-center w-[207px]   pt-[16px] text-[20px] font-normal text-buttonGray";
       break;
-      case "rectangle-5":
+    case "rectangle-5":
       buttonStyle =
-      "h-[40px] border-[1px] uppercase bg-[black] cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center w-[120px]  flex items-center justify-center  text-[14px] font-[500] text-white border-none  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300";
+        "h-[40px] border-[1px] uppercase bg-[black] cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center w-[120px]  flex items-center justify-center  text-[14px] font-[500] text-white border-none  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300";
       break;
     case "rectangle":
       buttonStyle =
