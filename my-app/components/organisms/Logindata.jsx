@@ -15,13 +15,9 @@ function Logindata() {
                <Span>Login</Span>
             </div>
         </div>
-        </Container>
-        <div className='flex'>
-        
         <Register/>
-        
-        </div>
 
+        </Container>
     </div>
   )
 }
