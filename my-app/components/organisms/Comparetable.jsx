@@ -3,7 +3,7 @@ import "../../app/globals.css"
 import Container from '../atoms/Container'
 import Heading from '../atoms/Heading'
 import Button from '../atoms/Button'
-import { MdDelete } from "react-icons/md";
+import { FaRegTrashCan } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 
 
@@ -66,17 +66,17 @@ function CompareData() {
                             <td>Delete</td>
                             <td className=' text-[24px] '>
                                 <div className="flex justify-center ">
-                                    <MdDelete />
+                                    <button className="text-xl hover:text-[#ff6a28]">< FaRegTrashCan /></button>
                                 </div>
                             </td>
                             <td className=' text-[24px] '>
                                 <div className="flex justify-center ">
-                                    <MdDelete />
+                                    <button className="text-xl hover:text-[#ff6a28]">< FaRegTrashCan /></button>
                                 </div>
                             </td>
                             <td className=' text-[24px] '>
                                 <div className="flex justify-center ">
-                                    <MdDelete />
+                                    <button className="text-xl hover:text-[#ff6a28]">< FaRegTrashCan /></button>
                                 </div>
                             </td>
                         </tr>
@@ -84,17 +84,17 @@ function CompareData() {
                             <td>Rating</td>
                             <td className=''>
                                 <div className='flex justify-center ' >
-                                    <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+                                <button className=" hover:text-[#ff6a28] flex"> <FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></button> 
                                 </div>
                             </td>
                             <td className=''>
                                 <div className='flex justify-center ' >
-                                    <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+                                    <button className=" hover:text-[#ff6a28] flex"> <FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></button> 
                                 </div>
                             </td>
                             <td className=''>
                                 <div className='flex justify-center ' >
-                                    <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+                                    <button className=" hover:text-[#ff6a28] flex"> <FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></button> 
                                 </div>
                             </td>
                         </tr>

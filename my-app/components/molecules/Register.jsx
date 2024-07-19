@@ -9,7 +9,6 @@ import Container from '../atoms/Container'
 
 function Register() {
     return (
-        <Container>
             <div className=" flex gap-[28px] ">
 
                 <div className='pt-[5%] w-[100%]' >
@@ -60,7 +59,6 @@ function Register() {
                             <div className='text-[20px]  my-[2%]'>
                                 <Label>Email</Label>
                                 <Span>*</Span>
-
                             </div>
                             <Input variant='nine' />
                         </div>
@@ -68,23 +66,18 @@ function Register() {
                             <div className='text-[20px] my-[2%] '>
                                 <Label>Password</Label>
                                 <Span>*</Span>
-
                             </div>
                             <Input variant='nine' />
                         </div>
                         <div className='flex pt-[5%] justify-between'>
-
                             <div className='text-[20px]  pl-[80%]' >
-                                
-
-                                <Button variant='filter'  >REGISTER</Button>
+                                <Button variant='filter' >REGISTER</Button>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-        </Container>
     )
 }
 

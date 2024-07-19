@@ -9,7 +9,7 @@ import Heading from '../atoms/Heading';
 
 function HomeProductSec({ src, src2, href, price, sale, name }) {
 return (
-    <div className='w-[230px] h-[325px] mb-3'>
+    <div className='w-[30%] mb-3'>
       <a href={href} className='flex flex-col gap-[6px]'>
         <div className='relative overflow-hidden'>
           <img className='w-[100%]' src={src} alt="image" />

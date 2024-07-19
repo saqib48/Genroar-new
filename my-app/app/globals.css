@@ -126,7 +126,7 @@ li:hover .dropdown2 {
 .shop:hover .shop-text {
     color: rgb(255, 106, 40);
 }
-
+/* hovernav */
 li:hover .dropdown2 {
     visibility: visible;
     opacity: 1;
@@ -145,6 +145,7 @@ li:hover .dropdown2 {
 .dropdown2 {
     transition: all 0.3s ease-out;
 }
+/* hovernavend */
 
 .product-catagory:hover h3 {
     color: #ff6a28;
@@ -189,7 +190,6 @@ li:hover .dropdown2 {
         object-fit: cover;
     }
 
-    padding: 7px;
 }
 
 .outer-product:hover .orange-ng {
