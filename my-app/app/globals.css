@@ -207,16 +207,14 @@ li:hover .dropdown2 {
     /* visibility delay ensures it changes after opacity */
 }
 .bg1{
-    background-image:url(../public/assits/images/coming-soon.webp) ;
-    background-repeat: no-repeat; 
+    background-image:url(../public/assits/images/about1.webp) ;
+    background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-     height: 100vh;
-
+    height: 100vh;
 }
-.paragraph{
-    color: #fff;
-    text-align: center;
-    margin-top: 15px
+
+.slick-slide > div {
+    margin: 0 10px;
 }
