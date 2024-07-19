@@ -7,7 +7,7 @@ import Paragraph from '../atoms/Paragraph';
 
 const HomeWCollection = () => {
   return (
-    <div className="px-[8%] mt-[5%] flex justify-around gap-6">
+    <div className="px-[5%] mt-[5%] flex justify-around gap-6">
         <SideBanner imgsrc={'/assits/images/banner2.webp'} imgalt={'Banner 2'} />
         <div className='w-1/2 flex flex-col items-center gap-4'>
           <Heading level='2'>For Women’s Collection</Heading>

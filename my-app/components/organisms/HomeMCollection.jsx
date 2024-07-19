@@ -6,7 +6,7 @@ import HomeProductSec from '../molecules/homeProductSec'
 
 const HomeMCollection = () => {
   return (
-    <div className="relative px-[8%] mt-[5%] flex justify-around gap-6">
+    <div className="relative px-[5%] mt-[5%] flex justify-around gap-6">
       <div className='w-1/2 flex flex-col items-center gap-4'>
           <Heading level='2'>For Men’s Collection</Heading>
           <Paragraph>Contemporary, minimal and modern designs embody the Lavish Alice handwriting</Paragraph>
