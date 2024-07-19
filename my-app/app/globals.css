@@ -214,3 +214,6 @@ li:hover .dropdown2 {
     background-size: cover;
     height: 100vh;
 }
+.slick-slide > div {
+    margin: 0 10px;
+}
