@@ -107,7 +107,7 @@ function GalleryDetails() {
                     <input
                         type="number"
                         defaultValue={1}
-                        min={0}
+                        min={1}
                         max={100}
                         className=" p-[5px] h-[50px] flex items-center  border border-gray-300 rounded outline-none"
                     />

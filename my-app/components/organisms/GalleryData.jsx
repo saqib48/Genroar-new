@@ -7,7 +7,6 @@ import Container from '../atoms/Container'
 function GalleryData() {
     return (
         <Container>
-
             <div className='pt-[4%]'>
                 <div className='flex gap-[5px]'>
                     <AnchorTag variant="success">Home</AnchorTag>
@@ -16,7 +15,6 @@ function GalleryData() {
                 </div>
             </div>
         </Container>
-
     )
 }
 

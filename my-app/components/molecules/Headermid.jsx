@@ -10,7 +10,7 @@ function Headermid() {
       <div className='flex  list-none items-center gap-[60px]  '>
         <li><AnchorTag variant='Header' href='/'>Home</AnchorTag></li>
         <li><AnchorTag variant='Header' href='/shop'>Shop<IoIosArrowDown /></AnchorTag>
-          <div className="dropdown2 left-[105px] absolute bg-white opacity-5 z-[9999] invisible p-[30px] w-[83%] bg-[#fff] ">
+          <div className="dropdown2 left-[105px] absolute bg-white opacity-5 z-[9999] invisible p-[30px] w-[83%]">
             <div className="flex mb-[20px]   ">
               <div className="">
                 <ul className="pr-[120px] border-r grid gap-[8px] s  ">
