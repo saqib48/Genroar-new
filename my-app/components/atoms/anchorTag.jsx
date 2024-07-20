@@ -40,6 +40,9 @@ const AnchorTag = ({ href, children, variant = '' }) => {
     case "check":
       anchorStyle = "leading-[30px] text-[#ff6a28] cursor-pointer text-[13px] font-normal";
       break;
+    case "gallery":
+      anchorStyle = "leading-[30px] hover:text-[#ff6a28] cursor-pointer text-[13px] font-normal";
+      break;
     default:
       anchorStyle = "";
   }

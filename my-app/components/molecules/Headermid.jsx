@@ -36,7 +36,7 @@ function Headermid() {
                   <li className=" text-[15px] "><AnchorTag ><b>Product Types</b></AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >Product Details</AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >Product Sidebar</AnchorTag></li>
-                  <li><AnchorTag href="/" variant="success" >Product Gellery</AnchorTag></li>
+                  <li><AnchorTag href="/gallery" variant="success" >Product Gellery</AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >Product Grouped</AnchorTag></li>
                   <li><AnchorTag href="/" variant="success" >Product Variable</AnchorTag></li>
 
