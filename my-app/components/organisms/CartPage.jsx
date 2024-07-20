@@ -40,7 +40,7 @@ const CartPage = () => {
                     <tbody>
                         {cartItems.map(item => (
                             <tr key={item.id} className="border-t border-gray-300 ">
-                                <td className="py-2 text-center border border-gray-300 py-[50px]">
+                                <td className="py-2 text-center border border-gray-300">
                                     <button onClick={() => handleRemoveItem(item.id)} className="text-xl text-red-500">< FaRegTrashCan /></button>
                                 </td>
                                 <td className="py-2 text-center border border-gray-300">
