@@ -9,6 +9,7 @@ function gallery() {
       <div>
           <Headermain />
           <GalleryData />
+          hello
           <Gallery/>
           <Footer/>
     </div>
